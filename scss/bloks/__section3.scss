@@ -1,0 +1,28 @@
+.lookLike_container{
+    .looklike_block{
+        display: flex;
+        align-items:center;
+        border-top: 2px solid rgba(128, 128, 128, 0.45);
+        border-bottom: 2px solid rgba(128, 128, 128, 0.45);
+        margin-bottom: 30px;
+        h2{
+            color: rgba(128, 128, 128, 0.45);
+            width: 100%;
+        }
+    }
+    &_images{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0px;
+        padding-left: 40px;
+    }
+    .warm_floor{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        background-color:rgb(175, 175, 255);
+        border-top: 2px solid rgba(128, 128, 128, 0.45);
+        border-bottom: 2px solid rgba(128, 128, 128, 0.45);
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,57 @@
+.firtstSection_inner{
+    padding-top: 25px;
+   .link_content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+     &_menu{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding-left: 0;
+     }
+     &_menu2{
+        list-style: none;
+         
+    }
+   }
+   .text_content{
+      display: flex;
+      &_l{
+         &_inner{
+            display: flex;
+            .stars{
+               display: flex;
+               padding-top: 15px;
+               padding-left: 15px;
+             }
+             .star{
+               display: flex;
+               width: 16px;
+               height: 15.4px;
+               background-size: contain;
+               background-repeat: no-repeat;
+               background-image: url(/imgs/star.png)
+             }
+             .nostar{
+               display: flex;
+               width: 16px;
+               height: 15.4px;
+               background-size: contain;
+               background-repeat: no-repeat;
+               background-image: url(/imgs/nostar.png);
+             }
+         }
+      }
+      &_r{
+         &_menu{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+         }
+         &_link{
+            color: black;
+         }
+      }
+   } 
+}

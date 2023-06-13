@@ -1,0 +1,12 @@
+.footer_content{
+    .footer_menu{
+        display: flex;
+        gap: 15px;
+        &_item{
+            list-style: none;
+           &_link{
+            color:black;
+           }
+        }
+    }
+}

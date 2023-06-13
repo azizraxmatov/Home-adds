@@ -1,0 +1,99 @@
+.info_container{
+    display: flex;
+.img_container_l{
+    &_inner{
+        display: flex;
+        width: 590px;
+        height: 390.4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/imgs/photo_2023-06-12_21-05-43.jpg);
+        position: relative;
+        &_zoom{
+            background-color:cadetblue;
+            width: 250px;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            border-radius:  0px 50px 50px 0;
+            cursor: pointer;
+            &_text{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                color: white;
+               
+            }
+        }
+       
+    }
+ .four_pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    padding: 55px;
+    position: relative;
+    // padding-left: 25px;
+    .four_pics1{
+        width: 200px;
+        height: 135.4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/imgs/photo_2023-06-12_21-05-43.jpg);
+        border: blue 2px solid;
+    }
+    .four_pics2{
+        width: 200px;
+        height: 135.4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/imgs/photo_2023-06-12_21-05-43.jpg);
+    }
+    .four_pics3{
+        width: 200px;
+        height: 135.4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/imgs/photo_2023-06-12_21-05-43.jpg);
+    }
+    .four_pics4{
+        width: 200px;
+        height: 135.4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/imgs/photo_2023-06-12_21-05-43.jpg);
+    }
+    .four_pics_nav1{
+     position: absolute;
+     display: inline-block;
+     border: 50px solid transparent;
+     left: -40px;
+     border-right-color: rgba(128, 128, 128, 0.377);
+     cursor: pointer;
+    }
+    .four_pics_nav2{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    border: 50px solid transparent;
+     right: -40px;
+     border-left-color: rgba(128, 128, 128, 0.377);
+     cursor: pointer;
+    }
+ }
+ .suggestion{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+ }
+}
+}
